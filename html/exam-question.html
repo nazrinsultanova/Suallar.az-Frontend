@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+    <link rel="stylesheet" href="../assets/css/main.css" type="text/css">
+    <link rel="stylesheet" href="../assets/css/exam-question.css" type="text/css">
+    <link rel="stylesheet" href="../assets/css/responsive.css" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM Sans:wght@100;200;300;400;500;600;700;800;900&display=swap">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suallar.az</title>
+</head>
+<body>
+    <div class="container">
+        <div class="exam-question-container">
+            <div class="breaktime-container">
+                <div class="breaktime-content">
+                    <h3>İmtahana fasilə verilib</h3>
+                    <p>İmtahan dayandırıldı. <br>
+                     Davam et-ə kliklədikdən sonra qaldığın yerdən davam edəcəksən.
+                    </p>
+                    <button class="continue-exam">Davam et</button>
+                </div>
+             </div>
+            <div class="show-time-container">
+                <div class="show-time-content">
+                    <h3>Son 1 dəqiqə</h3>
+                    <p> 
+                    İmtahanının bitməyinə 1 dəqiqə qalıb. Cavabları yekunlaşdır. 1 dəqiqənin <br> 
+                    sonunda imtahan avtomatik bitəcək.
+                    </p>
+                    <button class="close">Bağla</button>
+                </div>
+            </div>
+            <div class="finish-exam-container">
+                <div class="finish-exam-content">
+                    <h3>İmtahan sonlandırılsın?</h3>
+                    <p> 
+                        Hələ də zamanın var, cavab kartına bax və cavablanmamış sualları həll<br>
+                        edərək öz nəticəni artır!
+                    </p>
+                    <button class="finish-exam">İmtahanı bitir</button>
+                    <button class="continue">Davam et</button>
+                </div>
+            </div>
+            <div class="exam-question-content">
+                <div class="div-1128">
+                    <div class="exam-question-content-top">
+                        <div class="exam-question-content-top-left">
+                            <h3>I ixtisas qrupu</h3>
+                            <p>Sınaq imtahanı</p>
+                        </div>
+                        <div class="exam-question-content-top-right">
+                            <button class="show-time">
+                                <img src="../assets/images/icons/clock.svg"/>
+                                Vaxtı göstər</button>
+                            <button class="breaktime">
+                                <img src="../assets/images/icons/pause-circle.svg"/>
+                                Fasilə ver
+                            </button>
+                        </div>
+                    </div>
+                    <div class="exam-question-content-bottom">
+                        <div class="exam-questin-content-bottom-left">
+                            <div class="exam-info">
+                                <div>
+                                    <p>Ümumi sual sayı</p>
+                                    <p>125</p>
+                                </div>
+                                <div>
+                                    <p>Cavab verilib</p>
+                                    <p>55</p>
+                                </div>
+                                <div>
+                                    <p>İnkişaf</p>
+                                    <div class="chart-item-content">
+                                        <div class="bar-container">
+                                            <div class="bar"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="exam-info-mobile">
+                                <div>
+                                    <p>Ümumi sual sayı: <span>125</span></p>
+                                </div>
+                                <div>
+                                    <p>Cavab verilib: <span>55</span></p>
+                                </div>
+                                <div>
+                                    <p>İnkişaf:</p>
+                                    <div class="chart-item-content">
+                                        <div class="bar-container">
+                                            <div class="bar"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="subject-name">
+                                <p>Azərbaycan dili 
+                                    <img src="../assets/images/icons/Ellipse 34.svg"/>
+                                    12/40
+                                </p>
+                                <div class="back-next-arrows">
+                                    <img src="../assets/images/icons/arrow-left2.svg"/>
+                                    <img src="../assets/images/icons/arrow-right2.svg"/>
+                                </div>
+                            </div>
+                            <div class="question-container centered">
+                                <div class="question-content">
+                                   <img src="../assets/images/main/exam-question.png"/>
+                                </div>
+                            </div>
+
+                            <div class="answer-variants-container">
+                                <form>
+                                    <ul class="variant-radios">
+                                      <li class="radio-wrapper"> 
+                                          <label class="selected-answer" for="A">
+                                             <input type="radio" id="A" name="variant">
+                                                    A
+                                           </label>
+                                      </li>
+                                      <li class="radio-wrapper"> 
+                                        <label for="B">
+                                           <input type="radio" id="B" name="variant">
+                                                  B
+                                         </label>
+                                    </li>
+                                    <li class="radio-wrapper"> 
+                                        <label for="C">
+                                           <input type="radio" id="C" name="variant">
+                                                  C
+                                         </label>
+                                    </li>
+                                    <li class="radio-wrapper"> 
+                                        <label for="D">
+                                           <input type="radio" id="D" name="variant">
+                                                  D
+                                         </label>
+                                    </li>
+                                    <li class="radio-wrapper"> 
+                                        <label for="E">
+                                           <input type="radio" id="E" name="variant">
+                                                  E
+                                         </label>
+                                    </li>
+                                    </ul>
+                                </form>
+                            </div>
+                            <div class="next-previous-question-container">
+                                <button class="previous-question">Əvvəlki sual</button>
+                                <button class="later">
+                                    <div>
+                                        <img src="../assets/images/icons/question-mark.svg"/>
+                                    </div>
+                                    Sonra təkrar baxacam.</button>
+                                    <button class="next-question">Növbəti sual</button>
+                            </div>
+                        </div>
+                        <div class="exam-questin-content-bottom-right">
+                            <h2>Cavab kartı</h2>
+
+                            <div class="answer-sheets-container">
+                                <div class="subject-title">
+                                    <p>Azərbaycan dili</p>
+                                    <p>12/25</p>
+                                </div>
+                                <div class="answers-content">
+                                    <a href="#">
+                                        <div class="answers-content-item">
+                                        1 A
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="answers-content-item">
+                                            2 A
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="answers-content-item">
+                                            3 -
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="answers-content-item">
+                                            4 A
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="answers-content-item">
+                                            5 A
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="answers-content-item">
+                                            6 A
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="answers-content-item">
+                                            7 A
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="answers-content-item problem-question">
+                                            8 ?
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="answers-content-item">
+                                            9 -
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="answers-content-item">
+                                            10 A
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="answers-content-item">
+                                            11 A
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="answers-content-item current-question">
+                                            12 A
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="answers-content-item">
+                                            13 A
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="answers-content-item">
+                                            14 A
+                                        </div>
+                                    </a>
+                                   <a href="#">
+                                    <div class="answers-content-item">
+                                        15 A
+                                    </div>
+                                   </a>
+                                    <a href="#">
+                                        <div class="answers-content-item">
+                                            16 A
+                                        </div>
+                                    </a>
+                                   <a href="#">
+                                    <div class="answers-content-item">
+                                        17 A
+                                    </div>
+                                   </a>
+                                   <a href="#">
+                                    <div class="answers-content-item">
+                                        18 A
+                                    </div>
+                                   </a>
+                                   <a href="#">
+                                    <div class="answers-content-item">
+                                        19 A
+                                    </div>
+                                   </a>
+                                 <a href="#">
+                                    <div class="answers-content-item">
+                                        20 A
+                                    </div>
+                                 </a>
+                                    <a href="#">
+                                        <div class="answers-content-item big">
+                                            21  <span>1 ABCDE</span>
+                                            <span>2 ABCDE</span>
+                                            <span>3 ABCDE</span>
+                                        </div>
+                                    </a>
+                                 <a href="#">
+                                    <div class="answers-content-item big">
+                                        22  <span>1 ABCDE</span>
+                                        <span>2 ABCDE</span>
+                                        <span>3 ABCDE</span>
+                                    </div>
+                                 </a>
+                                <a href="#">
+                                    <div class="answers-content-item big">
+                                        23  <span>1 ABCDE</span>
+                                        <span>2 ABCDE</span>
+                                        <span>3 ABCDE</span>
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="answers-content-item big">
+                                        24  <span>1 ABCDE</span>
+                                        <span>2 ABCDE</span>
+                                        <span>3 ABCDE</span>
+                                    </div>
+                                </a>
+                                 <a href="">
+                                    <div class="answers-content-item big">
+                                        25  <span>1 ABCDE</span>
+                                        <span>2 ABCDE</span>
+                                        <span>3 ABCDE</span>
+                                    </div>
+                                 </a>
+                                </div>
+                            </div>
+                            <div class="exam-subjects-container">
+                                <div class="exam-subjects-content-item">
+                                    <p>Riyaziiyat</p>
+                                    <p>25/50</p>
+                                </div>
+                                <div class="exam-subjects-content-item">
+                                    <p>İngilis dili</p>
+                                    <p>50/75</p>
+                                </div>
+                                <div class="exam-subjects-content-item">
+                                    <p>Fizika</p>
+                                    <p>75/100</p>
+                                </div>
+                                <div class="exam-subjects-content-item">
+                                    <p>Kimya</p>
+                                    <p>100/125</p>
+                                </div>
+                            </div>
+                            <button class="finish-exam" type="submit">Tamamla</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/single-bar-chart.js"></script>
+</body>
+</html>

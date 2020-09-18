@@ -1,0 +1,221 @@
+/*-----------My Results---------*/
+
+.results-container{
+    width: 100%;
+    background-color: rgba(4,37,96, 0.05);
+}
+
+.results-container .results-content{
+    box-sizing: border-box;
+    padding-top: 7.2rem;
+    padding-bottom: 9.1rem;
+}
+
+.results-container .results-content .results-content-top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.results-content-top .results-content-top-left h2{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.2rem;
+    line-height: 150%;
+    color: rgba(4,37,96,0.75);
+    margin: 0;
+}
+
+.results-content-top .results-content-top-left p{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 150%;
+    color: rgba(4,37,96,0.5);
+    margin-bottom: 0;
+    margin-top: 1.6rem;
+}
+
+.results-content-top .results-content-top-right{
+    width: 27.6rem;
+    height: 4.8rem;
+    background: #FFFFFF;
+    border-radius: 0.8rem;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+}
+
+.results-content-top .results-content-top-right a{
+    background: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 150%;
+    text-decoration: none;
+    color: rgba(4,37,96, 0.3);
+}
+
+.results-content-top .results-content-top-right a:first-child{
+    border-right: 0.1rem solid rgba(4,37,96, 0.2);
+    padding-right: 2.4rem;
+}
+
+.results-content-top .results-content-top-right a:last-child{
+    padding-left: 2.4rem;
+}
+
+.results-content-top .results-content-top-right a.active{
+    color: #3E7AFF;
+}
+
+.results-container .results-content-bottom{
+    width: 100%;
+    margin-top: 4.8rem;
+}
+
+.results-content-bottom table{
+    width: 100%;
+}
+
+.results-content-bottom table tr{
+    width: 93rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.results-content-bottom table .top-tr{
+    margin-left: 3rem;
+}
+
+.results-content-bottom table .top-tr th{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: rgba(4,37,96, 0.75);
+    display: flex;
+}
+
+.results-content-bottom table .top-tr th img{
+    margin-left: 1.2rem;
+    width: 1.6rem;
+}
+ 
+.results-content-bottom table .top-tr th:nth-child(4){
+    margin-right: 3rem;
+}
+ 
+.results-content-bottom table .results-content-bottom-item{
+    width: 100%;
+    height: 9.6rem;
+    background: #FFFFFF;
+    border-radius: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-left: 3.2rem;
+    padding-right: 4.5rem;
+    padding-top: 3.6rem;
+    padding-bottom: 3.6rem;
+    margin-top: 1.6rem;
+}
+
+.results-content-bottom table .results-content-bottom-item td:first-child,
+.results-content-bottom table .results-content-bottom-item td:nth-child(2),
+.results-content-bottom table .results-content-bottom-item td:nth-child(3),
+.results-content-bottom table .results-content-bottom-item td:nth-child(4){
+    width: 20%;
+}
+
+.results-content-bottom table .results-content-bottom-item td{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: rgba(4,37,96, 0.75);
+}
+
+
+.results-content-bottom table .results-content-bottom-item td a{
+    text-decoration: none;
+    color: #3E7AFF;
+    width: 15.1rem;
+    height: 3.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.6rem;
+    background: rgba(62,122,255,0.1);
+}
+ 
+/*-------No Subject Exam-------*/
+
+.results-container .no-subject-exam-content-bottom{
+    width: 100%;
+    height: 63rem;
+    background: linear-gradient(122.75deg, #FFFFFF 0.92%, #F7F9FF 69.57%);
+    border-radius: 0.8rem;
+    margin-top: 4.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.results-container .no-subject-exam-content-bottom img {
+    width: 32.8rem;
+    height: 26.8rem;
+}
+
+.results-container .no-subject-exam-content-bottom h3{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 150%;
+    color: rgba(4,37,96, 0.75);
+    margin-bottom: 0;
+    margin-top: 3.2rem;
+}
+ 
+.results-container .no-subject-exam-content-bottom p{
+    width: 428px;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 150%;
+    text-align: center;
+    color: rgba(4,37,96, 0.5);
+    margin-bottom: 0;
+    margin-top: 1.2rem;
+}
+ 
+.results-container .no-subject-exam-content-bottom button{
+    width: 21.6rem;
+    height: 5.6rem;
+    background: #3E7AFF;
+    border: none;
+    outline: none;
+    border-radius: 1.2rem;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #FFFFFF;
+    margin-top: 2.4rem;
+}

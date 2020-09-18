@@ -1,0 +1,438 @@
+/*------------Subjects---------*/
+
+.subjects-content{
+   display: flex;
+}
+
+.subjects-content-item{
+    width: 36rem;
+    height: 49rem;
+    background: #FFFFFF;
+    border-radius: 0.8rem;
+    margin-right: 2.4rem;
+    box-sizing: border-box;
+    padding: 3.2rem;
+}
+
+.subjects-content-item:last-child{
+    margin-right: 0;
+}
+
+.subjects-content-item h2{
+    margin: 0;
+    display: flex;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 150%;
+    border-bottom: 0.1rem solid rgba(4,37,96,0.1);
+    padding-bottom: 3.2rem;
+}
+
+.subjects-content-item:first-child h2{
+    color: #3E7AFF;
+}
+
+.subjects-content-item:nth-child(2) h2{
+    color: #8A6CFF;
+}
+
+.subject-title-container {
+    margin-top: 3.2rem;
+}
+
+.subject-title-container .subject-title-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.subject-title-container .subject-title-content p{
+     margin: 0;
+}
+
+.subjects-content-item .start-exam{
+    width: 29.6rem;
+    height: 5.6rem;
+    border-radius: 1.2rem;
+    border: none;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4.6rem;
+    cursor: pointer;
+}
+
+.subjects-content-item:first-child .start-exam{
+    background: #3E7AFF;
+}
+
+.subjects-content-item:nth-child(2) .start-exam{
+    background: #8A6CFF;
+}
+
+.subjects-content-item .exam-information{
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+    border-bottom: 0.1rem solid rgba(4,37,96,0.1);
+}
+
+.subjects-content-item .exam-information tr th{
+    text-align: left;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2rem;
+    line-height: 150%;
+    color: #042560;
+    opacity: 0.5;
+}
+
+.subjects-content-item .exam-information tr th:last-child{
+    text-align: right;
+}
+ 
+.subjects-content-item .exam-information tr td{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: #042560;
+    opacity: 0.75;
+    text-align: left;
+}
+
+.subjects-content-item .exam-information tr td:first-child{
+    width: 33%;
+}
+
+.subjects-content-item .exam-information tr td:last-child{
+    width: 35%;
+}
+
+.subjects-content-item .exam-information tr td:nth-child(2){
+    width: 33%;
+}
+
+
+.subject-title-container .subject-title-content p{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 150%;
+    color: #042560;
+    opacity: 0.75;
+    padding-bottom: 0.8rem;
+    padding-top: 0.8rem;
+}
+
+.subject-title-container .subject-title-content {
+    border-bottom: 0.1rem solid rgba(4,37,96,0.1);
+}
+
+.subject-title-container .subject-title-content:last-child {
+    border-bottom: none;
+}
+
+.subject-title-container .subject-title-content:last-child p {
+    padding-bottom: 0rem;
+}
+
+.subject-title-container .subject-title-content:first-child p {
+    padding-top: 0rem;
+}
+
+/*-----------Subject Exam-----------*/
+
+.make-exam-content-bottom .subject-exam-container{
+    width: 55.2rem;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+    padding-top: 3.2rem;
+    padding-bottom: 6.4rem;
+    border-radius: 0.8rem;
+}
+
+.make-exam-content-bottom .subject-exam-container h2{
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 150%;
+    color: #3E7AFF;
+}
+
+.make-exam-content-bottom .subject-exam-container form{
+   width: 100%;
+   margin-top: 4.8rem;
+}
+
+.make-exam-content-bottom .subject-exam-container form label{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: rgba(4,37,96,0.75);
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: initial;
+    margin-bottom: 2.4rem;
+}
+ 
+.make-exam-content-bottom .subject-exam-container form label select{
+    width: 48.8rem;
+    height: 5.6rem;
+    margin-top: 1.2rem;
+    border: 1px solid rgba(4,37,96,0.1);
+    box-sizing: border-box;
+    border-radius: 1.2rem;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: #042560;
+    opacity: 0.5;
+    padding: 1.6rem;
+    outline: none;
+    -webkit-appearance: none;
+    background-image: url(../images/icons/vector-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 1.6rem);
+    background-size: 1rem;
+}
+
+.make-exam-content-bottom .subject-exam-container .start{
+    width: 100%;
+    height: 5.6rem;
+    background: #3E7AFF;
+    border-radius: 1.2rem;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    margin-top: 3.3rem;
+}
+
+.make-exam-content-bottom  .subject-exam-container p{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 150%;
+    margin-bottom: 0;
+    margin-top: 2.4rem;
+    color: rgba(4,37,96,0.75);
+}
+
+.make-exam-content-bottom  .subject-exam-container p span{
+    color: #3E7AFF;
+    font-weight: 500;
+}
+
+.make-exam-content-bottom  .subject-exam-container form div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.make-exam-content-bottom .subject-exam-container form div label{
+   width: 50%;
+   margin-right: 2.4rem;
+}
+
+.make-exam-content-bottom .subject-exam-container form div label:last-child{
+    margin-right: 0rem;
+}
+
+.make-exam-content-bottom .subject-exam-container form div label select{
+    width: 23.2rem;
+}
+
+.make-exam-content-bottom .subject-exam-container form div label{
+    margin-bottom: 0rem;
+}
+
+
+/*------------Choose Topics-----------*/
+
+.make-exam-content-bottom .choose-topics-container{
+    width: 55.2rem;
+    height: 73.3rem;
+    background: #FFFFFF;
+    border-radius: 0.8rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-top: 3.2rem;
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+    padding-bottom: 4.8rem;
+}
+
+.make-exam-content-bottom .choose-topics-container h2{
+    width: 100%;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 150%;
+    color: #042560;
+    margin: 0;
+    border-bottom: 0.1rem solid rgba(4,37,96,0.05);
+    padding-bottom: 3.2rem;
+}
+
+.choose-topics-container .choose-topics{
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.choose-topics-container .choose-topics .all-topics{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.1rem solid rgba(4,37,96,0.05);
+    padding-bottom: 2rem;
+}
+ 
+.choose-topics-container .choose-topics .all-topics .clean{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #3E7AFF;
+    outline: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.choose-topics-container .choose-topics .list-checkbox-container{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 150%;
+    color: rgba(4,37,96,0.75);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.choose-topics-container .choose-topics .list-checkbox-container input{
+    height: 2.4rem;
+    position: absolute;
+    margin: 0rem;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+}
+
+.list-checkbox-container input[type=checkbox] {
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.list-checkbox-container input[type=checkbox]:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 2.4rem;
+    height: 2.4rem;
+    border: 0.2rem solid  rgba(4,37,96,0.75);
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 0.8rem;
+}
+
+.list-checkbox-container input[type=checkbox]:checked:after {
+    content: url(../images/icons/checkbox-icon.svg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.4rem;
+    height: 2.4rem;
+    background: #3E7AFF;
+    position: absolute;
+    border-radius: 0.8rem;
+    border: none;
+}
+
+.checkbox-mark{
+    margin-right: 3.5rem;
+}
+
+.choose-topics-container .choose-topics .topics-ul{
+   padding: 0;
+   margin: 0;
+   list-style-type: none;
+   margin-top: 3rem;
+   overflow-y: scroll;
+   max-height: 38.4rem;
+}
+
+.choose-topics-container .choose-topics .topics-ul::-webkit-scrollbar{
+    width: 0.6rem;
+    margin-right: 24px;
+    background-color: rgba(4,37,96,0.05);
+    border-radius: 0.2rem;
+}
+
+ .choose-topics-container .choose-topics .topics-ul::-webkit-scrollbar-thumb{
+    background: rgba(4,37,96,0.75);
+    border-radius: 0.2rem;
+}
+
+.choose-topics-container .choose-topics .topics-ul .topics-li{
+    margin-bottom: 4.8rem;
+}
+
+.choose-topics-container .choose-topics .complete{
+    width: 100%;
+    height: 5.6rem;
+    background: rgb(62,122,255,0.05);
+    border-radius: 0.8rem;
+    border: none;
+    margin-top: 4.8rem;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    display: flex;
+    align-items: center;
+    color: #3E7AFF;
+    outline: none;
+    cursor: pointer;
+    padding-left: 1.2rem;
+    box-sizing: border-box;
+}
+
+.choose-topics-container .choose-topics .complete img{
+   width: 2.4rem;
+   height: 2.4rem;
+}

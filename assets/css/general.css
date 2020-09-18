@@ -1,0 +1,659 @@
+.general-container{
+    width: 100%;
+    background-color: rgba(4,37,96, 0.05);
+}
+
+.general-content{
+    box-sizing: border-box;
+    padding-top: 7.2rem;
+    padding-bottom: 9.4rem;
+}
+
+.general-content-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.general-content-top-left h3{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.2rem;
+    line-height: 150%;
+    color: #042560;
+    opacity: 0.75;
+    margin: 0;
+}
+
+.general-content-top-left p{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 150%;
+    color: #042560;
+    opacity: 0.5;
+    margin: 0;
+    margin-top: 1.6rem;
+}
+
+.general-content-top-right{
+    display: flex;
+}
+
+.general-content-top-right .subscribe{
+    width: 15.6rem;
+    height: 5.6rem;
+    background: #FFFFFF;
+    border-radius: 0.8rem;
+    border: 0.2rem dotted rgba(62,122,255, 0.5);
+    display: flex;
+    align-items: center;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #6B9BFF;
+    box-sizing: border-box;
+    padding-top: 1.2rem;
+    padding-left: 1.2rem;
+    padding-bottom: 1.2rem;
+    margin-right: 2.4rem;
+    outline: none;
+}
+
+.subscribe div{
+    background: linear-gradient(180deg, #B4CBFF 0%, #6B99FF 100%);
+    border-radius: 1.6rem;
+    width: 3.2rem;
+    height: 3.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2rem;
+}
+
+.general-content-top-right .start-exam{
+    width: 19.2rem;
+    height: 5.6rem;
+    background: #3E7AFF;
+    border-radius: 0.8rem;
+    border: none;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    padding-top: 1.9rem;
+    padding-bottom: 1.9rem;
+    padding-left: 1.933rem;
+    outline: none;
+}
+
+.general-content-top-right .start-exam img{
+   margin-right: 2.733rem ;
+}
+
+.general-content-bottom{
+    margin-top: 4.8rem;
+}
+
+.general-content-bottom .student-info{
+    width: 100%;
+    height: 15.6rem;
+    background-color: #fff;
+    border-radius: 0.8rem;
+    box-sizing: border-box;
+    padding-left: 3.2rem;
+    padding-top: 4.2rem;
+    padding-bottom: 4.2rem;
+    padding-right: 14.6rem;
+    display: flex;
+}
+
+.student-info-left{
+    display: flex;
+    border-right: 0.1rem solid rgb(4,37,96,0.1);
+    width: 32.8rem;
+}
+
+.student-info-left h3{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 150%;
+    color: #042560;
+    margin: 0;
+}
+
+.student-info-left p{
+    width: 9.1rem;
+    height: 3.2rem;
+    margin: 0;
+    border-radius: 1.6rem;
+    background-color: rgba(62,122,255,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: rgba(62,122,255,0.75);
+    margin-top: 1rem;
+}
+
+.student-img{
+    margin-right: 2.4rem;
+    position: relative;
+}
+
+.student-img .star-icon{
+    position: absolute;
+    bottom: -0.8rem;
+    left: 3rem;
+}
+
+.student-info-right{
+    display: flex;
+    justify-content: space-between;
+    width: 61.5rem;
+    box-sizing: border-box;
+    padding-left: 6.3rem;
+}
+
+.student-info-right div p:first-child{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: #042560;
+    opacity: 0.5;
+    margin: 0;
+}
+
+.student-info-right div p:nth-child(2){
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 150%;
+    color: #042560;
+    opacity: 0.75;
+    margin-top: 1rem;
+}
+
+.student-info-right div p:nth-child(2) a{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: #3E7AFF;
+ 
+    margin-left: 1.2rem;
+    text-decoration: none;
+}
+
+.general-content-bottom .flex-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.general-content-bottom .flex-container .flex-container-item{
+    width: 34.4rem;
+    height: 22.1rem;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 12px rgba(4, 37, 96, 0.04);
+    border-radius: 0.8rem;
+    box-sizing: border-box;
+    padding: 3.2rem
+}
+
+.general-content-bottom .flex-container .flex-container-item h3{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 150%;
+    color: rgba(4,37,96,0.75);
+    margin: 0;
+}
+
+.general-content-bottom .flex-container .flex-container-item p{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: rgba(4,37,96,0.5);
+    margin-bottom: 0;
+    margin-top: 2.8rem;
+}
+
+.general-content-bottom .flex-container .flex-container-item .number-of-exams{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 2rem;
+}
+
+.general-content-bottom .flex-container .flex-container-item .number-of-exams h2{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.8rem;
+    line-height: 150%;
+    margin: 0;
+}
+
+.general-content-bottom .flex-container .flex-container-item:first-child .number-of-exams h2{
+    color: #3E7AFF;
+    opacity: 0.75;
+}
+
+.general-content-bottom .flex-container .flex-container-item:nth-child(2) .number-of-exams h2{
+    color: #06DD90;
+}
+
+.general-content-bottom .flex-container .flex-container-item:nth-child(3) .number-of-exams h2{
+    color: #9A81FF;
+}
+
+.general-content-bottom .flex-container-second{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 4.8rem;
+}
+
+.general-content-bottom .flex-container-second .exam-score{
+    width: 34.4rem;
+    height: 45rem;
+    background-color: #fff;
+    border-radius: 0.8rem;
+    box-sizing: border-box;
+    padding-top: 3.2rem;
+    padding-bottom: 3.2rem;
+}
+
+.general-content-bottom .flex-container-second .exam-score .exam-score-top {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2.8rem;
+    padding-right: 3.2rem;
+    border-bottom: 0.2rem solid #F1F3F9;
+    padding-bottom: 2.4rem;
+}
+
+.general-content-bottom .flex-container-second .exam-score .exam-score-top p,
+.general-content-bottom .flex-container-second .exam-score .exam-score-top a {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 150%;
+    margin: 0;
+    color: rgba(4, 37, 96, 0.5);
+}
+ 
+.general-content-bottom .flex-container-second .exam-score .exam-score-top a {
+    color: #3E7AFF;
+    text-decoration: none;
+}
+
+.general-content-bottom .flex-container-second .exam-score .exam-score-middle p {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 150%;
+    color: rgba(4, 37, 96, 0.5);
+    margin: 0;
+}
+
+.general-content-bottom .flex-container-second .exam-score .exam-score-middle {
+    width: 100%;
+    border-bottom: 0.2rem solid #F1F3F9;
+    box-sizing: border-box;
+    padding-bottom: 2.4rem;
+    padding-top: 2.8rem;
+}
+
+.general-content-bottom .flex-container-second .exam-score .exam-score-middle h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.8rem;
+    line-height: 150%;
+    color: rgba(4, 37, 96, 0.75);
+    margin-top: 0.4rem;
+    margin-bottom: 0;
+}
+
+.general-content-bottom .flex-container-second .exam-score .exam-info{
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   margin-top: 2.4rem;
+}
+ 
+.general-content-bottom .flex-container-second .exam-score .exam-info .exam-date p:first-child,
+.general-content-bottom .flex-container-second .exam-score .exam-info .exam-duration p:first-child{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    margin: 0;
+    color: rgba(4, 37, 96, 0.5);
+}
+
+.general-content-bottom .flex-container-second .exam-score .exam-info .exam-date p:last-child,
+.general-content-bottom .flex-container-second .exam-score .exam-info .exam-duration p:last-child{
+    width: 11.8rem;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: rgba(4, 37, 96, 0.75);
+    margin-top: 0.4rem;
+    margin-bottom: 0;
+}
+
+.general-content-bottom .flex-container-second .exam-score .show-answer-card{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28.4rem;
+    height: 5.6rem;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.8rem; 
+    margin-top: 3.2rem;
+    background: rgba(62,122,255,0.05);
+    border-radius: 0.8rem;
+    color: #3E7AFF;
+}
+
+.general-content-bottom .flex-container-second .exam-score .padding{
+    box-sizing: border-box;
+    padding-left: 2.8rem;
+    padding-right: 3.2rem;
+}
+
+.general-content-bottom .flex-container-second .score-chart{
+    width: 44.8rem;
+    height: 45rem;
+    background: #FFFFFF;
+    border-radius: 0.8rem;
+    box-sizing: border-box;
+    padding-top: 3.2rem;
+}
+
+.general-content-bottom .flex-container-second .score-chart .score-chart-top {
+    box-sizing: border-box;
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+    padding-bottom: 2.4rem;
+    border-bottom: 0.2rem solid #F1F3F9;
+}
+
+.general-content-bottom .flex-container-second .score-chart .score-chart-top p {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 150%;
+    color: rgba(4, 37, 96, 0.5);
+    margin: 0;
+    display: flex;
+}
+
+.general-content-bottom .flex-container-second .score-chart .score-chart-top p img {
+    margin-left: 1rem;
+}
+
+/*------------Chart Design-----------*/
+
+.score-chart .chart-container{
+    width: 44.8rem;
+    height: 30rem;
+    padding-right: 3.2rem;
+    padding-left: 3.2rem;
+    box-sizing: border-box;
+    margin-top: 2.8rem;
+}
+
+.general-content-bottom .flex-container-second .percentage-chart {
+    width: 24rem;
+    height: 45rem;
+    background: #FFFFFF;
+    border-radius: 0.8rem;
+    box-sizing: border-box;
+    padding-top: 3.2rem;
+}
+
+.general-content-bottom .flex-container-second .percentage-chart  .score-chart-top {
+   display: flex;
+   align-items: center;
+   box-sizing: border-box;
+   padding-left: 3.2rem;
+   padding-right: 3.2rem;
+   border-bottom: 0.2rem solid #F1F3F9;
+   padding-bottom: 2.4rem;
+}
+
+.general-content-bottom .flex-container-second .percentage-chart  .score-chart-top p {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: rgba(4, 37, 96, 0.5);
+    margin: 0;
+}
+  
+.general-content-bottom .flex-container-second .percentage-chart .score-chart-top p img {
+   margin-left: 0.8rem;
+}
+ 
+canvas {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+#chartjs-tooltip {
+    position: absolute;
+    background: white;
+    border: 0.1rem solid rgba(62, 122, 255, 0.2);
+    border-radius: 0.8rem;
+    -webkit-transition: all .1s ease;
+    transition: all .1s ease;
+    pointer-events: none;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    width: 16.8rem;
+    height: 15.9rem;
+    box-shadow: 0rem 1.2rem 1.2rem rgba(4, 37, 96, 0.04);
+    box-sizing: border-box;
+}
+
+#chartjs-tooltip #groups{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 150%;
+    margin: 0;
+    color: rgba(4, 37, 96, 0.5);
+}
+
+#chartjs-tooltip #scores{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 150%;
+    margin-bottom: 0;
+    margin-top: 0.7rem;
+    color: rgba(4, 37, 96, 0.75);
+}
+
+#chartjs-tooltip #dates{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2rem;
+    line-height: 150%;
+    color: rgba(4, 37, 96, 0.5);
+    margin-bottom: 0;
+    margin-top: 0.4rem;
+}
+
+#chartjs-tooltip #link{
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 150%;
+    color: #3E7AFF;
+    margin-top: 1.6rem;
+    display: block;
+}
+
+
+/*-----------Horizontal Chart----------*/
+
+.horizontal-chart-container .chart-item-content .chart-content-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.horizontal-chart-container .chart-item-container {
+    box-sizing: border-box;
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+    padding-top: 3.7rem;
+    padding-bottom: 3rem;
+}
+
+.horizontal-chart-container .chart-item-content{
+    margin-top: 2.4rem;
+}
+
+.horizontal-chart-container .chart-item-content:first-child{
+    margin-top: 0rem;
+}
+
+.horizontal-chart-container .chart-item-content .chart-content-top .subject,
+.horizontal-chart-container .chart-item-content .chart-content-top .percentage{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: rgba(4, 37, 96, 0.75);
+    margin: 0;
+}
+
+.horizontal-chart-container .chart-item-content .chart-content-top .percentage{
+    color: rgba(62,122,255,0.75);
+}
+ 
+.horizontal-chart-container .chart-item-content .bar-container {
+    margin-top: 1.2rem;
+    width: 17.6rem;
+    height: 0.8rem;
+    border-radius: 0.4rem;
+    background: rgba(62, 122, 255, 0.2);
+}
+
+.horizontal-chart-container .chart-item-content .bar-container .bar {
+    background: #3E7AFF;
+    width:76%;
+    height: 0.8rem;
+    border-radius: 0.4rem;
+}
+
+.general-content-bottom .flex-container-second  .score-chart .score-chart-top .chart-info,
+.general-content-bottom .flex-container-second .percentage-chart .score-chart-top .horizontal-chart-info {
+    width: 22.8rem;
+    height: auto;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    box-shadow:  0rem 1.2rem 1.2prem rgba(4, 37, 96, 0.04);
+    border-radius: 0.8rem;
+    border: 0.1rem solid rgba(62, 122, 255, 0.2);
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+    position: absolute;
+    top: -12.8rem;
+    right: 7.5rem;
+    display: none;
+}
+
+.general-content-bottom .flex-container-second .percentage-chart .score-chart-top .horizontal-chart-info {
+    right: -0.6rem;
+    top: -10.8rem;
+}
+
+.general-content-bottom .flex-container-second .score-chart .score-chart-top .chart-info.show,
+.general-content-bottom .flex-container-second .percentage-chart .score-chart-top .horizontal-chart-info.show {
+    display: block;
+}
+
+.general-content-bottom .flex-container-second  .score-chart .score-chart-top .chart-info p,
+.general-content-bottom .flex-container-second .percentage-chart .score-chart-top p {
+    width: 19.6rem;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: rgba(4, 37, 96, 0.5);
+}
+ 
+.general-content-bottom .flex-container-second  .score-chart .score-chart-top,
+.general-content-bottom .flex-container-second .percentage-chart .score-chart-top  {
+    position: relative;
+}
+
+.general-content-bottom .flex-container-second  .score-chart .score-chart-top .chart-info:after,
+.general-content-bottom .flex-container-second .percentage-chart .score-chart-top .horizontal-chart-info:after,
+#chartjs-tooltip:after {
+   content: " ";
+   position: absolute;
+   width: 1.2rem;
+   height: 1.2rem;
+   border-top: 0rem solid rgba(62, 122, 255, 0.2);
+   border-left: 0rem solid rgba(62, 122, 255, 0.2);
+   border-right: 0.1rem solid rgba(62, 122, 255, 0.2);
+   border-bottom: 0.1rem solid rgba(62, 122, 255, 0.2);
+   top: 100%;
+   left: 50%;
+   margin-left: -1rem;
+   transform: rotate(45deg);
+   margin-top: -0.6rem;
+   background: #fff;
+} 
+ 

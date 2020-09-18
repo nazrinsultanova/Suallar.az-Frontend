@@ -1,0 +1,42 @@
+ /*----------Student Packet----*/
+
+.main-container{
+     width: 100%;
+     background-color: #EFF4FF;
+}
+
+.main-content{
+    box-sizing: border-box;
+    padding-top: 11.027rem;
+    padding-bottom: 11.027rem;
+}
+
+.main-container .main-content .student-packet-content{
+    margin: 0 auto;
+    width: 74.5rem;
+    height: 67rem;
+    background-color: #fff;
+    border-radius: 2.4rem;
+    border: 0.2rem solid rgba(70, 122, 255, 0.1);
+    box-sizing: border-box;
+}
+
+.student-packet-content .packet-title{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 3.3rem;
+    letter-spacing: 0.15rem;
+    color: #002370;
+    background: #F1F5FF;
+    border-radius: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+}
+.student-packet-content .packet-title span{
+    color: #405A94;
+    font-size: 1.8rem;
+    
+}

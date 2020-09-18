@@ -1,0 +1,541 @@
+
+@media only screen and (max-width: 1280px) {
+  html {
+    font-size: 9px;
+  }
+}
+
+@media only screen and (max-width: 1180px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+@media only screen and (max-width: 1040px) {
+  html {
+    font-size: 7px;
+  }
+}
+
+@media only screen and (max-width: 940px) {
+  html {
+    font-size: 6px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 10px;
+}
+
+ .div-1128 {
+    width: 100%;
+}
+
+   /*----------Header----------*/
+
+.header-container,
+.header-content {
+  width: 100%;
+  height: 8rem;
+}
+
+.header-mobile-left-logo {
+  display: block;
+}
+
+.header-container .header-center .header-menu,
+.header-container .header-right .profile-info{
+  display: none;
+}
+
+.header-content {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+
+/*-----------Account----------*/
+
+.account-container {
+  width: 100%;
+}
+
+.account-container .account-content  .account-content-top {
+  width: 100%;
+  text-align: center;
+}
+
+.account-container .account-content {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 4.5rem;
+}
+
+.account-container .account-content-bottom {
+  margin-top: 3.2rem;
+  display: flex;
+  width: 100%;
+}
+
+.account-container .account-content-bottom-left {
+  text-align: center;
+}
+
+.account-container .account-content-bottom-left,
+.account-container .account-content-bottom-right .form-container,
+.account-container .account-content-bottom-right  {
+  width: 100%;
+}
+
+.account-container .account-content-bottom-right {
+  width: 100%;
+  margin-top: 6rem;
+}
+
+.account-container .account-content-bottom-right .form-container,
+.account-container .account-content-bottom-right .form-container label input,
+.account-container .account-content-bottom-right .form-container label {
+  width: 100%;
+}
+ 
+.account-content-bottom-right .form-container form .save-info {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.account-content-bottom-right .packet-container,
+.account-content-bottom-right .packet-container .packet-content .packet-content-bottom .modify-packet,
+.account-content-bottom-right .packet-container .packet-content   {
+  width: 100%;
+}
+ 
+.account-content-bottom-right .packet-container .packet-content .packet-content-top div:first-child h3 {
+  margin-top: 0.7rem;
+  font-size: 1.8rem;
+}
+
+.account-content-bottom-right .packet-container .packet-content .packet-content-top div:last-child h3 {
+  margin-top: 0.4rem;
+  font-size: 1.8rem;
+}
+
+.account-content-bottom-right .packet-container .packet-content .packet-content-top div:last-child p {
+  font-size: 1.2rem;
+  height: 2.4rem;
+}
+ 
+.account-content-bottom-right .packet-container .packet-content .packet-content-bottom .links-container {
+  flex-wrap: wrap;
+  margin-top: 1.8rem;
+}
+
+.account-content-bottom-right .packet-container .packet-content .packet-content-bottom .extend-expiration {
+  width: 100%;
+  margin-top: 1.6rem;
+}
+
+.account-content-bottom-right .packet-container .packet-content .packet-content-top {
+  padding-bottom: 2.8rem;
+}
+
+.account-content-bottom-right .packet-container .packet-content .packet-content-middle {
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem;
+}
+
+
+/*-----------Achievements----------*/
+
+.achievements-container {
+  width: 100%;
+}
+
+.achievements-container .achievements-content {
+  width: 100%;
+  padding-top: 4.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 14rem;
+}
+
+.achievements-container .achievements-content .achievements-content-top {
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.achievements-container .achievements-content-top-right {
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: 3rem;
+}
+
+.achievements-container .achievements-content-top-right a {
+  font-size: 1.2rem;
+}
+
+.achievements-content-bottom {
+  width: 100%;
+}
+
+.achievements-content-bottom .achievements-item {
+  width: 100%;
+}
+
+
+/*-----------Choose topics-------*/
+
+.make-exam-container {
+  width: 100%;
+}
+
+.make-exam-container .make-exam-content {
+  padding-top: 4.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.make-exam-container .make-exam-content .make-exam-content-top {
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.make-exam-content-top-right {
+  margin-top: 3rem;
+}
+
+.make-exam-content-bottom {
+  margin-top: 6rem;
+  background: transparent;
+  padding: 0;
+}
+
+.make-exam-content-bottom .choose-topics-container {
+  width: 100%;
+}
+ 
+
+/*-----------Create exam--------*/
+
+.make-exam-content-bottom-flex {
+  flex-wrap: wrap;
+}
+
+.make-exam-content-bottom-flex .radio-box-container,
+.radio-box-container form label  {
+  width: 100%;
+}
+
+.make-exam-content-bottom-flex .radio-box-container .radio-ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.radio-box-container .radio-ul .radio-li {
+  margin-right: 0;
+  width: 100%;
+  margin-bottom: 2.4rem;
+}
+
+.radio-box-container .radio-ul .radio-li:last-child {
+  margin-bottom: 0rem;
+}
+
+
+/*----------No main exam--------*/
+
+.results-container {
+  width: 100%;
+}
+
+.results-container .results-content {
+  padding-top: 4.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.results-container .results-content .results-content-top {
+  flex-wrap: wrap;
+}
+
+.results-content-top .results-content-top-right {
+  margin-top: 3rem;
+}
+
+.results-container .no-subject-exam-content-bottom {
+  width: 100%;
+}
+
+.results-container .no-subject-exam-content-bottom h3 {
+  text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.results-container .no-subject-exam-content-bottom p {
+  width: 100%;
+}
+
+.results-content-top .results-content-top-left p {
+  width: 100%;
+}
+
+
+/*-----------Olympiads---------*/
+
+.olympiads-container {
+  width: 100%;
+}
+
+.olympiads-container .olympiads-content {
+  padding-top: 4.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.olympiads-content-middle {
+  width: 100%;
+  padding: 2.4rem;
+  height: auto;
+}
+
+.olympiads-content-middle-top {
+  flex-wrap: wrap;
+}
+
+.olympiads-awards {
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.olympiads-content-middle h3 {
+  font-size: 2.8rem;
+}
+
+.olympiads-content-middle ul li {
+  font-size: 1.6rem;
+}
+
+.olympiads-content-middle ul img {
+  margin-right: 0.8rem;
+  margin-left: 0.8rem;
+}
+
+.olympiads-awards .olympiads-award-item {
+  margin-bottom: 2rem;
+  margin-right: 2.4rem;
+}
+
+.olympiads-awards .olympiads-award-item:last-child {
+  margin-bottom: 0rem;
+}
+
+.olympiads-content-middle-bottom button {
+  width: 100%;
+}
+
+.olympiads-content-middle-bottom {
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2.8rem;
+}
+
+.olympiads-content-middle-bottom .timer-container {
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.olympiads-content-middle-bottom #countdown-timer {
+  margin-top: 1.6rem;
+  width: 100%;
+}
+
+.olympiads-content-middle-bottom .timer-container p {
+  width: 100%;
+  text-align: center;
+}
+
+.olympiads-results-content-bottom h3 {
+  text-align: center;
+  width: 100%;
+}
+
+.olympiads-results-content-bottom p {
+  width: 100%;
+  text-align: center;
+}
+
+
+
+/*-----------Subject exam----------*/
+
+.make-exam-content-bottom .subject-exam-container{
+   width: 100%;
+   padding: 1.6rem;
+ }
+
+.make-exam-content-bottom .subject-exam-container form label select,
+.make-exam-content-bottom .subject-exam-container form label {
+   width: 100%;
+}
+
+.make-exam-content-bottom .subject-exam-container form div {
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.make-exam-content-bottom .subject-exam-container form div label,
+.make-exam-content-bottom .subject-exam-container form div label select {
+  width: 100%;
+  margin-right: 0;
+}
+
+.make-exam-content-bottom .subject-exam-container form div label {
+  margin-bottom: 2.4rem;
+}
+
+.make-exam-content-bottom .subject-exam-container form div label:last-child {
+  margin-bottom: 0;
+}
+
+.make-exam-content-bottom {
+  height: auto;
+}
+
+
+/*------------Subjects----------*/
+
+.subjects-content {
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.subjects-content-item {
+  width: 100%;
+  margin-bottom: 2rem;
+  margin-right: 0;
+}
+
+.subjects-content-item:last-child {
+  margin-bottom: 0;
+}
+
+.subjects-content-item:first-child .start-exam,
+.subjects-content-item:nth-child(2) .start-exam {
+  width: 100%;
+}
+
+
+/*-----------Exam question---------*/
+
+.exam-question-content {
+  width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 5rem;
+}
+
+.exam-question-container .exam-question-content-top {
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.exam-question-container .exam-question-content-top .exam-question-content-top-right {
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.exam-question-container .exam-question-content-bottom {
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.exam-question-container .exam-question-content-bottom .exam-questin-content-bottom-left {
+  width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 3rem;
+}
+
+.exam-question-container .exam-question-content-bottom .exam-questin-content-bottom-right {
+  width: 100%;
+}
+
+.exam-question-container .exam-question-content-bottom .exam-questin-content-bottom-left .exam-info {
+   display: none;
+}
+
+.exam-question-container .exam-question-content-bottom .exam-questin-content-bottom-left .exam-info-mobile {
+  display: block;
+}
+
+.exam-question-container .exam-question-content-bottom .exam-questin-content-bottom-left .exam-info-mobile div p {
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 150%;
+  color: rgba(4,37,96,0.5);
+  margin: 0;
+  margin-bottom: 0.6rem;
+}
+
+.exam-question-container .exam-question-content-bottom .exam-questin-content-bottom-left .exam-info-mobile div:last-child p {
+  margin-bottom: 0rem;
+}
+
+.exam-question-container .exam-question-content-bottom .exam-questin-content-bottom-left .exam-info-mobile div p span {
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 150%;
+  color: rgba(4,37,96,0.75);
+  margin-left: 0.8rem;
+}
+
+.exam-info-mobile .chart-item-content .bar-container {
+  width: 17.6rem;
+  height: 0.8rem;
+  border-radius: 0.4rem;
+  background: rgba(62, 122, 255, 0.2);
+  margin-left: 1rem;
+}
+
+.exam-info-mobile .chart-item-content .bar-container .bar {
+  background: #3E7AFF;
+  width: 76%;
+  height: 0.8rem;
+  border-radius: 0.4rem;
+}
+
+.exam-info-mobile div:nth-child(3) {
+  display: flex;
+  align-items: center;
+}
+
+.exam-question-content-bottom .exam-questin-content-bottom-left .subject-name {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.exam-question-content-bottom .exam-questin-content-bottom-left .subject-name p {
+  font-size: 1.8rem;
+}
+
+.question-container.centered .question-content img {
+  width: 100%;
+  object-fit: contain;
+}
+
+ 
+
+} 

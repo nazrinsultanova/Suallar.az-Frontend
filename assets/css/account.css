@@ -1,0 +1,420 @@
+/*--------Account---------*/
+
+.account-container {
+    width: 100%;
+    background-color: rgba(4,37,96, 0.05);
+}
+
+.account-container .account-content {
+    box-sizing: border-box;
+    padding-top: 7.2rem;
+    padding-bottom: 25rem;   
+}
+
+.account-container .account-content  .account-content-top h2 {
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.2rem;
+    line-height: 150%;
+    color: rgba(4,37,96,0.75);
+}
+
+.account-container .account-content-bottom {
+    margin-top: 7.2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.account-container .account-content-bottom-left .account-ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.account-container .account-content-bottom-left .account-ul .account-li a img {
+   display: none;
+   width: 1.6rem;
+   height: 0.2rem;
+   margin-right: 0.8rem;
+}
+
+.account-container .account-content-bottom-left .account-ul .account-li.active a img {
+    display: block;
+}
+
+.account-container .account-content-bottom-left .account-ul .account-li a {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 2.6rem;
+    text-decoration: none;
+    color: rgba(4,37,96, 0.5);
+    display: flex;
+    align-items: center;
+    margin-bottom: 3.2rem;
+}
+ 
+.account-container .account-content-bottom-left .account-ul .account-li.active a {
+   color: #3E7AFF;
+}
+
+.account-container .account-content-bottom-left .account-ul .account-li:last-child a {
+    margin-bottom: 0;
+}
+ 
+.account-container .account-content-bottom-left .account-ul .account-li {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20rem;
+}
+
+.account-container .account-content-bottom-right {
+  margin: 0 auto;
+}
+
+.account-container .account-content-bottom-right .profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.account-container .account-content-bottom-right .profile-container .circle { 
+    width: 9.6rem;
+    height: 9.6rem;
+    border-radius: 4.8rem;
+    border: 0.1rem solid rgba(4, 37, 96, 0.1);
+    background: rgba(4, 37, 96, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+} 
+
+.account-container .account-content-bottom-right .profile-container .profile-img label {
+    margin-bottom: 0;
+}
+
+.account-container .account-content-bottom-right .profile-container .profile-img label .file-upload {
+    display: none;
+}
+
+.account-container .account-content-bottom-right .profile-container .profile-title{ 
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 150%;
+    color: rgba(4, 37, 96, 0.75);
+    margin-top: 1.6rem;
+    margin-bottom: 0;
+} 
+
+.account-container .account-content-bottom-right .profile-container .change-profile{ 
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: #3E7AFF;
+    margin-top: 0.2rem;
+    margin-bottom: 0;
+    cursor: pointer;
+} 
+ 
+.account-content-bottom-right .form-container form label {
+    width: 36rem;
+    font-family: 'DM Sans',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: rgba(4, 37, 96, 0.75);
+    display: flex;
+    flex-wrap: wrap;
+    max-width: initial;
+    margin-bottom: 3.2rem;
+}
+
+.account-content-bottom-right .form-container form label .warning-title {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2rem;
+    line-height: 150%;
+    margin-bottom: 0;
+    margin-top: 0.2rem;
+    color: #EB5757;
+    opacity: 0.75;
+    display: none;
+}
+
+.account-content-bottom-right .form-container form label .warning-title.show {
+    display: block;
+}
+ 
+.account-content-bottom-right .form-container form label input {
+    width: 100%;
+    height: 5.6rem;
+    background: #FFFFFF;
+    border: 0.1rem solid rgba(4, 37, 96, 0.1);
+    box-sizing: border-box;
+    border-radius: 1.2rem;
+    padding-left: 1.6rem;
+    padding-top: 1.7rem;
+    padding-bottom: 1.8rem;
+    margin-top: 1.2rem;
+    outline: none;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: rgba(4, 37, 96, 0.75);
+}
+   
+.account-content-bottom-right .form-container form label select {
+    height: 5.6rem;
+    background: #FFFFFF;
+    border: 0.1rem solid rgba(4, 37, 96, 0.1);
+    border-radius: 1.2rem;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: rgba(4, 37, 96, 0.75);
+    box-sizing: border-box;
+    padding-left: 1.6rem;
+    -webkit-appearance: none;
+    background-image: url(../images/icons/select-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 1.7rem);
+    background-size: 1rem;
+}
+ 
+.account-content-bottom-right .form-container form label .select-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.2rem;
+}
+
+.account-content-bottom-right .form-container form label .select-div select:first-child,
+.account-content-bottom-right .form-container form label .select-div select:last-child {
+    width: 9.6rem;
+}
+
+.account-content-bottom-right .form-container form label .select-div select:nth-child(2) {
+    width: 13.6rem;
+}
+
+.account-content-bottom-right .form-container form .save-info {
+    width: 36rem;
+    height: 5.6rem;
+    background: #3E7AFF;
+    border-radius: 1.2rem;
+    border: none;
+    outline: none;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-top: 4.2rem;
+}
+
+
+/*-------------Account info-----------*/
+
+.account-content-bottom-right .form-container form .mail-label input {
+    border: 0.1rem solid rgba(4, 37, 96, 0.1);
+    background: transparent;
+}
+
+.account-content-bottom-right .form-container .no-margin {
+    margin-top: 0;
+}
+
+/*---------Account Packet------------*/
+
+.account-content-bottom-right .packet-container{
+    width: 100%;
+}
+
+.account-content-bottom-right .packet-container .packet-content{
+    width: 55.2rem;
+    height: 45.6rem;
+    background: #FFFFFF;
+    border-radius: 0.8rem;
+    box-sizing: border-box;
+    padding-left: 3.2rem;
+    padding-top: 3.8rem;
+    padding-right: 3.2rem;
+    padding-bottom: 3.2rem;
+}
+
+.account-content-bottom-right .packet-container .packet-content .packet-content-top{
+    border-bottom: 0.1rem solid rgba(4, 37, 96, 0.1);
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-bottom: 4.8rem;
+    width: 100%;
+}
+
+.account-content-bottom-right .packet-container .packet-content .packet-content-top div:first-child p{
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: rgba(4, 37, 96, 0.5);
+}
+
+.account-content-bottom-right .packet-container .packet-content .packet-content-top div:first-child h3{
+    margin-bottom: 0;
+    margin-top: 1.7rem;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 150%;
+    color: rgba(4, 37, 96, 0.75);
+}
+
+.account-content-bottom-right .packet-container .packet-content .packet-content-top div:last-child p{
+    margin: 0;
+    width: 8.7rem;
+    height: 3.2rem;
+    border-radius: 1.6rem;
+    background-color: rgba(62,122,255,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: #3E7AFF;
+}
+
+.account-content-bottom-right .packet-container .packet-content .packet-content-top div:last-child h3{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 150%;
+    color: rgba(4, 37, 96, 0.5);
+    margin-bottom: 0;
+    margin-top: 0.5rem;
+    display: flex;
+}
+
+.account-content-bottom-right .packet-container .packet-content .packet-content-top div:last-child h3 span{
+    color: #3E7AFF;
+}
+
+.account-content-bottom-right .packet-container .packet-content .packet-content-top div:last-child h3 img{
+    margin-right: 0.8rem;
+    margin-left: 0.8rem;
+    width: 0.4rem;
+}
+
+.account-content-bottom-right .packet-container .packet-content .packet-content-middle {
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+    border-bottom: 0.1rem solid rgba(4, 37, 96, 0.1);
+}
+
+.account-content-bottom-right .packet-container .packet-content .packet-content-middle .student-name {
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 150%;
+    color: #042560;
+}
+
+.account-content-bottom-right .packet-container .packet-content .packet-content-middle .standard {
+    margin-bottom: 0;
+    margin-top: 1.2rem;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: rgba(4, 37, 96, 0.5);
+    display: flex;
+}
+
+.account-content-bottom-right .packet-container .packet-content .packet-content-middle .standard img {
+  margin-right: 0.8rem;
+  margin-left: 0.8rem;
+  width: 0.3rem;
+}
+
+.account-content-bottom-right .packet-container .packet-content .packet-content-bottom {
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 3.2rem;
+} 
+
+.account-content-bottom-right .packet-container .packet-content .packet-content-bottom .expiration-date{
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: rgba(4, 37, 96, 0.5);
+} 
+
+.account-content-bottom-right .packet-container .packet-content .packet-content-bottom .expiration-date span{
+    color: rgba(4, 37, 96, 0.75);
+    margin-left: 0.8rem;
+} 
+
+.account-content-bottom-right .packet-container .packet-content .packet-content-bottom a{
+    width: 23.2rem;
+    height: 5.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    border-radius: 1.2rem;
+}
+
+.account-content-bottom-right .packet-container .packet-content .packet-content-bottom .modify-packet{
+    background: #3E7AFF;
+    color: #FFFFFF;
+}
+
+.account-content-bottom-right .packet-container .packet-content .packet-content-bottom .extend-expiration{
+    background: rgba(62,122,255,0.1);
+    color: #3E7AFF;
+}
+
+.account-content-bottom-right .packet-container .packet-content .packet-content-bottom .links-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4.8rem;
+}

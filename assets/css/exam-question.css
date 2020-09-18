@@ -1,0 +1,1192 @@
+/*--------Exam Question Sample------*/
+
+.exam-question-container{
+    width: 100%;
+    background-color: rgba(4,37,96, 0.05);
+}
+
+.exam-question-content{
+    box-sizing: border-box;
+    padding-top: 6.4rem;
+    padding-bottom: 11.5rem;
+}
+
+.exam-question-container .exam-question-content-top{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.exam-question-container .exam-question-content-top .exam-question-content-top-left h3{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.2rem;
+    line-height: 150%;
+    color: rgb(4,37,96, 0.75);
+    margin: 0;
+}
+
+.exam-question-container .exam-question-content-top .exam-question-content-top-left p{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 150%;
+    margin-bottom: 0;
+    margin-top: 1.6rem;
+    color: rgb(4,37,96, 0.5);
+}
+
+.exam-question-container .exam-question-content-top .exam-question-content-top-right{
+    display: flex;
+}
+
+.exam-question-container .exam-question-content-top .exam-question-content-top-right button{
+    width: 16.8rem;
+    height: 5.6rem;
+    border-radius: 0.8rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 1.8rem;
+    margin-right: 2.4rem;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+}
+
+.exam-question-container .exam-question-content-top .exam-question-content-top-right button img{
+    margin-right: 1.6rem;
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+
+.exam-question-container .exam-question-content-top .exam-question-content-top-right .show-time{
+    background-color: rgba(4,37,96, 0.05);
+    color: rgba(4,37,96, 0.75);
+}
+
+.exam-question-container .exam-question-content-top .exam-question-content-top-right .breaktime{
+   background-color: rgba(62,122,255, 0.1) ;
+   color: #3E7AFF;
+   margin-right: 0;
+}
+
+.exam-question-container .exam-question-content-top .exam-question-content-top-right .breaktime img{
+     margin-right: 2.5rem;
+}
+
+.exam-question-container .exam-question-content-bottom{
+    width: 100%;
+    margin-top: 4.8rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.exam-question-container .exam-question-content-bottom .exam-questin-content-bottom-left{
+    width: 74.4rem;
+    height: 86.4rem;
+    background: #FFFFFF;
+    border-radius: 0.8rem;
+    box-sizing: border-box;
+    padding-top: 4.8rem;
+    padding-left: 7.2rem;
+    padding-right: 7.2rem;
+    padding-bottom: 4.8rem;
+}
+
+.exam-question-container .exam-question-content-bottom .exam-questin-content-bottom-left.height{
+    height: auto;
+}
+
+.exam-question-content-bottom .exam-questin-content-bottom-left .exam-info{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.1rem solid rgb(4,37,96, 0.05);
+    padding-bottom: 4.5rem;
+}
+
+.exam-question-content-bottom .exam-questin-content-bottom-left .exam-info div p:first-child {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: rgb(4,37,96,0.5);
+    margin: 0;
+}
+
+.exam-question-content-bottom .exam-questin-content-bottom-left .exam-info div p:last-child {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 150%;
+    color: rgb(4,37,96,0.75);
+    margin-top: 0.2rem;
+    margin-bottom: 0;
+}
+
+.exam-question-content-bottom .exam-questin-content-bottom-left .subject-name{
+    display: flex;
+    height: 6.4rem;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.1rem solid rgb(4,37,96, 0.05);
+}
+
+.exam-question-content-bottom .exam-questin-content-bottom-left .subject-name p{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 150%;
+    color: #3E7AFF;
+    margin: 0;
+    display: flex;
+}
+
+.exam-question-content-bottom .exam-questin-content-bottom-left .subject-name p img{
+   margin-left: 1.5rem;
+   margin-right: 1.5rem;
+   width: 0.4rem;
+}
+
+.exam-question-content-bottom .exam-questin-content-bottom-left .subject-name .back-next-arrows img{
+   width: 2.4rem;
+   height: 2.4rem;
+   cursor: pointer;
+}
+
+.exam-question-content-bottom .exam-questin-content-bottom-left .subject-name .back-next-arrows img:first-child{
+    margin-right: 1.5rem;
+}
+
+.exam-question-content-bottom .exam-question-content-bottom-left .question-container{  
+    border-bottom: 0.1rem solid rgb(4,37,96, 0.05);
+    margin: 0 auto; 
+}
+ 
+.answer-variants-container{
+    margin-top: 9.6rem;
+    border-bottom: 0.1rem solid rgb(4,37,96, 0.05);
+    padding-bottom: 6.4rem;
+}
+
+.answer-variants-container form .variant-radios{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+} 
+ 
+.answer-variants-container form .variant-radios .radio-wrapper{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    width: 10.1rem;
+    height: 5.6rem;
+    border: 1px solid rgba(4, 37, 96, 0.1);
+    border-radius: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #042560;
+    cursor: pointer;
+    margin-right: 2.4rem;
+}
+
+.answer-variants-container form .variant-radios .radio-wrapper.selected-answer{
+    background: #3E7AFF;
+    color: #FFFFFF;
+}
+
+.answer-variants-container form .variant-radios input[type="radio"] {
+   display: none;
+}
+
+.next-previous-question-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 3.2rem;
+}
+
+.next-previous-question-container button{
+    width: 16.8rem;
+    height: 4.8rem;
+    border-radius: 0.8rem;
+    outline: none;
+    border: none;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0;
+}
+
+.next-previous-question-container .previous-question{
+   background-color: rgba(4,37,96,0.05);
+   color: rgba(4,37,96, 0.5);
+}
+
+.next-previous-question-container .next-question{
+     background-color: rgba(62,122,255, 0.1);
+     color: #3E7AFF;
+}
+
+.next-previous-question-container .later{
+    background-color: transparent;
+    width: 18rem;
+    color: rgba(4,37,96, 0.5);
+}
+
+.next-previous-question-container .later div{
+    width: 1.6rem;
+    height: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(4,37,96, 0.1);
+    border-radius: 1.6rem;
+    margin-right: 1.2rem;
+}
+
+.next-previous-question-container .later div img {
+    width: 0.7rem;
+    height: 1.6rem;
+}
+
+.exam-question-container .exam-question-content-bottom .exam-questin-content-bottom-right{
+    width: 36rem;
+    height: 100%;
+    background: #FFFFFF;
+    border-radius: 0.8rem;
+    box-sizing: border-box;
+    padding: 3.2rem;
+}
+
+.exam-questin-content-bottom-right h2{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 150%;
+    color: rgb(4,37,96, 0.75);
+    margin: 0;
+}
+
+.exam-questin-content-bottom-right .subject-title{
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+}
+
+.exam-questin-content-bottom-right .subject-title p{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: #3E7AFF;
+    margin: 0;
+}
+
+.exam-questin-content-bottom-right .answer-sheets-container{
+    border: 0.1rem dashed #3E7AFF;
+    box-sizing: border-box;
+    padding-left: 1.6rem;
+    padding-right: 1.4rem;
+    padding-top: 1.7rem;
+    padding-bottom: 3.2rem;
+    margin-top: 2.4rem;
+    border-radius: 0.8rem;
+}
+
+.exam-questin-content-bottom-right .answer-sheets-container .answers-content{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.exam-questin-content-bottom-right .answer-sheets-container .answers-content a{
+     text-decoration: none;
+}
+
+.exam-questin-content-bottom-right .answer-sheets-container .answers-content-item{
+    width: 4.5rem;
+    height: 3.2rem;
+    border: 0.1rem solid rgba(4,37,96,0.4);
+    border-radius: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 150%;
+    color: rgb(4,37,96, 0.75);
+     margin-bottom: 1.2rem;
+}
+
+.exam-questin-content-bottom-right .answer-sheets-container .answers-content a:last-child .answers-content-item{
+    margin-bottom: 0rem;
+}
+
+.exam-questin-content-bottom-right .answer-sheets-container .answers-content-item.big{
+    width: 26.6rem;
+    height: 3.2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.exam-questin-content-bottom-right .answer-sheets-container .answers-content-item.current-question{
+    border: 0.1rem solid #3E7AFF;
+    color: #3E7AFF;
+}
+
+.exam-questin-content-bottom-right .answer-sheets-container .answers-content-item.problem-question{
+   background-color: rgba(62,122,255,0.2);
+   border: none;
+}
+ 
+.exam-questin-content-bottom-right .exam-subjects-container{
+    width: 100%;
+}
+
+.exam-questin-content-bottom-right .exam-subjects-container .exam-subjects-content-item{
+    width: 29.6rem;
+    height: 5.6rem;
+    border-radius: 0.8rem;
+    border: 0.1rem solid rgba(4, 37, 96, 0.1);
+    margin-top: 1.6rem;
+    display: flex;
+    box-sizing: border-box;
+    padding-left: 1.6rem;
+    padding-right: 1.8rem;
+    padding-top: 1.7rem;
+    padding-bottom: 1.8rem;
+    justify-content: space-between;
+}
+
+.exam-questin-content-bottom-right .exam-subjects-container .exam-subjects-content-item p{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: rgb(4,37,96, 0.75);
+    margin: 0;
+}
+
+.exam-questin-content-bottom-right .finish-exam{
+    width: 100%;
+    height: 5.6rem;
+    border: none;
+    background: #3E7AFF;
+    border-radius: 1.2rem;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-top: 4.8rem;
+    cursor: pointer;
+    outline: none;
+}
+
+.question-container{
+    margin-top: 6.4rem;
+    margin-bottom: 9.6rem;
+}
+
+.question-content p{
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 150%;
+    color: rgb(4,37,96, 0.75);
+}
+
+.question-container .answer-variants{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 3.2rem;
+}
+
+.question-container .answer-variants .answer-variants-item{
+    list-style-type: none;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 150%;
+    color: rgb(4,37,96, 0.75);
+}
+
+.answer-variants-container .variant-checkbox{
+    list-style-type: none;
+    padding: 0;
+}
+
+.answer-variants-container .variant-checkbox .number{
+    width: 101px;
+    height: 56px;
+    background-color: rgb(4,37,96, 0.05);
+}
+
+.answer-variants-container form .result-answer{
+    display: flex;
+}
+
+.answer-variants-container form .result-answer .answer-title{
+    width: 10.1rem;
+    height: 5.6rem;
+    border-radius: 0.8rem;
+    background-color: rgb(4,37,96, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    color: #042560;
+    margin-right: 2.4rem;
+}
+
+.answer-variants-container form .result-answer label input{
+    width: 16rem;
+    height: 5.2rem;
+    outline: none;
+    border-radius: 0.8rem;
+    border: 0.1rem solid rgb(4,37,96, 0.1);
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+/*-------------Exam Result-----------*/
+
+.exam-question-container .exam-question-content-top .exam-question-content-top-right .close{
+    width: 16.8rem;
+    height: 5.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.8rem;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #3E7AFF;
+    background-color: rgba(62,122,255,0.05);
+    margin-right: 0;
+    padding: 0;
+}
+
+.exam-question-content-bottom .exam-result-container .exam-result-content-top {
+    width: 74.4rem;
+    height: 14.4rem;
+    background: #FFFFFF;
+    border-radius: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-left: 3.2rem;
+    padding-right: 16.3rem;
+    align-items: center;
+}
+
+.exam-question-content-bottom .exam-result-container .exam-result-content-top div p:first-child {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: rgba(4,37,96, 0.5);
+    margin: 0;
+} 
+
+.exam-question-content-bottom .exam-result-container .exam-result-content-top div p:last-child {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgba(4,37,96, 0.75);
+    margin-bottom: 0;
+    margin-top: 1.2rem;
+}  
+
+.exam-question-content-bottom .exam-result-container .exam-result-content-top .final-score{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.2rem;
+    line-height: 150%;
+    color: #3E7AFF;
+    margin: 0;
+    padding-right: 5.6rem;
+    border-right: 0.1rem solid rgba(4,37,96, 0.1);
+}
+
+.exam-question-content-bottom .exam-result-container .exam-result-content-bottom {
+    width: 74.4rem;
+    height: auto;
+    background: #FFFFFF;
+    border-radius: 0.8rem;
+    margin-top: 2.4rem;
+    box-sizing: border-box;
+    padding-left: 7.2rem;
+    padding-right: 7.2rem;
+    padding-top: 4.8rem;
+    padding-bottom: 4.8rem;
+}
+
+.exam-result-content-bottom .exam-result-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.exam-result-content-bottom .exam-result-info div p:first-child{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 150%;
+    margin: 0;
+    color: rgba(4,37,96, 0.5);
+}
+
+.exam-result-content-bottom .exam-result-info div p:nth-child(2){
+   margin-bottom: 0;
+   margin-top: 0.2rem;
+   font-family: 'DM Sans', sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 2rem;
+   line-height: 150%;
+}
+
+.exam-result-content-bottom .exam-result-info div:first-child p:last-child{
+    color: rgba(4,37,96,0.75);
+}
+
+.exam-result-content-bottom .exam-result-info div:nth-child(2) p:last-child{
+    color: rgb(62,122,255, 0.75);
+}
+
+.exam-result-content-bottom .exam-result-info div:nth-child(3) p:last-child{
+    color: #06DD90;
+}
+
+.exam-result-content-bottom .exam-result-info div:nth-child(4) p:last-child{
+    color: #EB5757;
+}
+
+.exam-result-content-bottom .subject-name{
+    display: flex;
+    justify-content: space-between;
+    border-top: 0.1rem solid rgb(4,37,96, 0.1);
+    border-bottom: 0.1rem solid rgb(4,37,96, 0.1);
+    height: 6.4rem;
+    margin-top: 4.8rem;
+}
+
+.exam-result-content-bottom .subject-name .title{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 150%;
+    color: rgba(4,37,96,0.75);
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.exam-result-content-bottom .subject-name .title img{
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.exam-result-content-bottom .subject-name div{
+    box-sizing: border-box;
+    padding-top: 1.7rem;
+    padding-bottom: 1.7rem;
+    padding-right: 2rem;
+    position: relative;
+}
+
+.exam-result-content-bottom .subject-name div .inform-about-wrong{
+    position: absolute;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 150%;
+    margin: 0;
+    color: rgba(4,37,96, 0.75);
+    background: #FFFFFF;
+    width: 17.7rem;
+    height: 5.6rem;
+    box-shadow: 2rem 2rem 15rem rgba(0, 35, 112, 0.25);
+    border-radius: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    top: 5rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.answer-variants-container form .variant-radios .radio-wrapper.correct-answer{
+    background: #06DD90;
+    color: #FFFFFF;
+    border: none;
+}
+
+.answer-variants-container form .variant-radios .radio-wrapper.wrong-answer{
+     background: rgba(235,87,87,0.3);
+     color: #042560;
+     border: none;
+}
+
+.exam-subject-container {
+    margin-top: 6rem;
+}
+
+.exam-subject-container .exam-subject-content-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.1rem solid rgb(4,37,96, 0.05);
+}
+
+.exam-subject-container .exam-subject-content-item:first-child{
+    border-top: 0.1rem solid rgb(4,37,96, 0.05);
+}
+
+.exam-subject-container .exam-subject-content-item .title{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 150%;
+    color: rgba(4,37,96, 0.75);
+    display: flex;
+    align-items: center;
+}
+
+.exam-subject-container .exam-subject-content-item .title img{
+    margin-right: 1.6rem;
+    margin-left: 1.6rem;
+    width: 0.4rem;
+}
+
+.exam-subject-container .exam-subject-content-item .check-out{
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #3E7AFF;
+}
+
+.exam-question-content-bottom .group{
+    margin-top: 6.4rem;
+}
+
+.exam-question-content-bottom .group .answer-variants-container{
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.exam-question-content-bottom .group .subject-name{
+     margin-top: 0;
+}
+
+.exam-question-content-bottom .group .subject-name div img {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.answer-sheets-container .answers-content .answers-content-item.correct{
+    border: 0.1rem solid #06DD90;
+    color: #06DD90;
+}
+
+.answer-sheets-container .answers-content .answers-content-item.wrong,
+.answer-sheets-container .answers-content .answers-content-item.current-question.wrong,
+.answer-sheets-container .answers-content .answers-content-item.big.wrong{
+    border: 0.1rem solid #EB5757;
+    color: #EB5757;
+}
+
+.answer-sheets-container .answers-content .answers-content-item.blank{
+    border: 0.1rem solid rgba(4,37,96, 0.1);
+    color: rgba(4,37,96, 0.5);
+}
+
+.answer-sheets-container .answers-content .answers-content-item.problem-question.blank{
+     background: #FFFFFF;
+}
+
+.answer-sheets-container .subject-title p:last-child,
+.exam-subjects-content-item p:last-child{
+    display: flex;
+    align-items: center;
+}
+
+.answer-sheets-container .subject-title .blue-title{
+    color: rgba(4,37,96,0.75);
+}
+
+.answer-sheets-container .subject-title p:last-child img,
+.exam-subjects-content-item p:last-child img{
+   margin-right: 0.4rem;
+   margin-left: 0.4rem;
+}
+
+.answer-sheets-container .subject-title p .green,
+.exam-subjects-content-item .green{
+    color: #06DD90;
+}
+
+.answer-sheets-container .subject-title p .red,
+.exam-subjects-content-item .red{
+    color: rgba(235,87,87,0.75);
+}
+
+.answer-sheets-container .subject-title p .blue,
+.exam-subjects-content-item .blue{
+    color:  rgba(4,37,96, 0.75);
+}
+
+.exam-questin-content-bottom-right .answer-sheets-container.opacity-border{
+    border: 0.1rem dashed rgb(4,37,96,0.1);
+}
+
+.question-container.centered{
+    text-align: center;
+}
+
+.question-container.centered .question-content img {
+    width: 34.7rem;
+    height: 24rem;
+}
+ 
+/*-----------Popups---------*/
+
+.breaktime-container,
+.show-time-container,
+.finish-exam-container{
+    position: absolute;
+    z-index: 999;
+    height: 133rem;
+    width: 100%;
+    justify-content: center;
+    display: none;
+    background: rgb(4,37,96, 0.75);
+}
+
+.breaktime-container .breaktime-content,
+.show-time-container .show-time-content,
+.finish-exam-container .finish-exam-content{
+    position: relative;
+    width: 74.4rem;
+    height: 30.8rem;
+    background: #FFFFFF;
+    border-radius: 0.8rem;
+    box-sizing: border-box;
+    height: min-content;
+    margin-top: 17.5rem;
+    padding-top: 4.8rem;
+    padding-bottom: 4.8rem;
+    text-align: center;
+}
+
+.breaktime-container .breaktime-content h3,
+.show-time-container .show-time-content h3,
+.finish-exam-container .finish-exam-content h3{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 150%;
+    color: #042560;
+    margin: 0;
+}
+
+.breaktime-container .breaktime-content p,
+.show-time-container .show-time-content p,
+.finish-exam-container .finish-exam-content p{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 150%;
+    color: rgba(4, 37, 96, 0.5);
+    margin: 0;
+    margin-top: 2.4rem;
+}
+
+.breaktime-container .breaktime-content .continue-exam,
+.finish-exam-container .finish-exam-content .finish-exam{
+    width: 21.6rem;
+    height: 5.6rem;
+    border: none;
+    outline: none;
+    background: #3E7AFF;
+    border-radius: 1.2rem;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #FFFFFF;
+    margin-top: 4.8rem;
+    cursor: pointer;
+}
+
+.show-time-container .show-time-content .close,
+.finish-exam-container .finish-exam-content .continue{
+    width: 21.6rem;
+    height: 5.6rem;
+    border-radius: 1.2rem;
+    background-color: rgba(62,122,255, 0.1);
+    border: none;
+    outline: none;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #3E7AFF;
+    cursor: pointer;
+    margin-top: 4.8rem;
+}
+
+.finish-exam-container .finish-exam-content .finish-exam{
+  margin-right: 1.6rem;
+}
+
+.inform-about-wrong-container{
+    position: absolute;
+    z-index: 999;
+    height: 336rem;
+    width: 100%;
+    justify-content: center;
+    display: none;
+    background: rgb(4,37,96, 0.75);
+}
+
+.inform-about-wrong-container .inform-about-wrong-content{
+    position: relative;
+    width: 55.2rem;
+    height: 50.3rem;
+    background: #FFFFFF;
+    border-radius: 0.8rem;
+    box-sizing: border-box;
+    height: min-content;
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+    padding-top: 4.8rem;
+    padding-bottom: 4.8rem;
+    margin-top: 10.7rem;
+}
+
+.inform-about-wrong-container .inform-about-wrong-content h3{
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 150%;
+    color: #042560;
+}
+
+.inform-about-wrong-container .inform-about-wrong-content .subject-title{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 150%;
+    color: rgba(4, 37, 96, 0.75);
+    display: flex;
+    align-items: center;
+    margin-top: 1.2rem;
+    margin-bottom: 0;
+}
+
+.inform-about-wrong-container .inform-about-wrong-content .content-top{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.inform-about-wrong-container .inform-about-wrong-content .subject-title img{
+   margin-right: 1.5rem;
+   margin-left: 1.5rem;
+}
+
+
+.inform-about-wrong-container .inform-about-wrong-content .instruction{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 150%;
+    margin-bottom: 0;
+    margin-top: 2.4rem;
+    color: rgba(4, 37, 96, 0.5);
+    width: 100%;
+}
+
+.inform-about-wrong-container .inform-about-wrong-content form{
+    width: 100%;
+    margin-top: 2.4rem;
+}
+
+.inform-about-wrong-container .inform-about-wrong-content form textarea{
+    outline: none;
+    width: 100%;
+    height: 11.8rem;
+    box-sizing: border-box;
+    padding-left: 1.6rem;
+    padding-top: 1.7rem;
+    border: 0.1rem solid rgba(4,37,96, 0.1);
+    border-radius: 1.2rem;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 150%;
+}
+
+.inform-about-wrong-container .inform-about-wrong-content form textarea::placeholder{
+   color: rgba(4,37,96, 0.25);
+}
+
+.inform-about-wrong-container .inform-about-wrong-content form button{
+    width: 23.2rem;
+    height: 5.6rem;
+    border-radius: 1.2rem;
+    outline: none;
+    border: none;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    cursor: pointer;
+}
+
+.inform-about-wrong-container .inform-about-wrong-content form .send{
+    color: #FFFFFF;
+    background: #EB5757;
+    margin-right: 2.4rem;
+}
+
+.inform-about-wrong-container .inform-about-wrong-content form .exit{
+    color: rgb(4,37,96, 0.5);
+}
+
+.inform-about-wrong-container .inform-about-wrong-content form div{
+    display: flex;
+    margin-top: 6.5rem;
+}
+
+.inform-about-wrong-container .inform-about-wrong-content  #the-count{
+    text-align: right;
+    margin-bottom: 0;
+    margin-top: 1.2rem;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: rgb(4,37,96, 0.5);
+}
+
+.thanks-for-informing-container{
+    position: absolute;
+    z-index: 999;
+    height: 336rem;
+    width: 100%;
+    justify-content: center;
+    display: none;
+    background: rgb(4,37,96, 0.75);
+}
+
+.thanks-for-informing-container.show{
+  display: flex;
+}
+
+.thanks-for-informing-container .thanks-for-informing-content{
+    position: relative;
+    width: 55.2rem;
+    height: 39.8rem;
+    background: #FFFFFF;
+    border-radius: 0.8rem;
+    box-sizing: border-box;
+    height: min-content;
+    margin-top: 10.1rem;
+    padding-top: 5.533rem;
+    padding-right: 3.2rem;
+    padding-left: 3.2rem;
+    padding-bottom: 4.8rem;
+    text-align: center;
+}
+
+
+.thanks-for-informing-container .thanks-for-informing-content h3{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 150%;
+    color: #042560;
+    margin-bottom: 0;
+    margin-top: 2.133rem;
+}
+
+.thanks-for-informing-container .thanks-for-informing-content p{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: rgba(4,37,96, 0.5);
+    width: 100%;
+}
+
+.thanks-for-informing-container .thanks-for-informing-content .close{
+    width: 100%;
+    height: 5.6rem;
+    outline: none;
+    border: none;
+    border-radius: 1.2rem;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: rgba(4,37,96, 0.5);
+    cursor: pointer;
+    margin-top: 3.3rem;
+}
+
+.answer-variants-container form .variant-checkbox{
+    margin: 0;
+    padding: 0;
+}
+
+.answer-variants-container form .variant-checkbox .checkbox-wrapper{
+   width: 100%;
+   display: flex;
+   margin-bottom: 2.4rem;
+}
+
+.answer-variants-container form .variant-checkbox .checkbox-wrapper:last-child{
+    margin-bottom: 0;
+ }
+
+.answer-variants-container form .variant-checkbox .checkbox-wrapper .question-number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10.1rem;
+    height: 5.6rem;
+    border-radius: 0.8rem;
+    background: rgba(4, 37, 96, 0.05);
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    color: #042560;
+}
+
+.answer-variants-container form .variant-checkbox .checkbox-wrapper label{
+    margin-right: 2.4rem;
+}
+
+.answer-variants-container form .variant-checkbox .checkbox-wrapper label:last-child{
+    margin-right: 0;
+}
+
+.answer-variants-container form .variant-checkbox .checkbox-wrapper .checkbox-label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7.6rem;
+    height: 5.6rem;
+    background: #FFFFFF;
+    border-radius: 0.8rem;
+    border: 0.1rem solid rgba(4,37,96, 0.1);
+    color: #042560;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+}
+
+.answer-variants-container form .variant-checkbox input[type="checkbox"] {
+    display: none;
+}
+ 
+.exam-info .chart-item-content .bar-container {
+    margin-top: 1.2rem;
+    width: 17.6rem;
+    height: 0.8rem;
+    border-radius: 0.4rem;
+    background: rgba(62, 122, 255, 0.2);
+}
+
+.exam-info .chart-item-content .bar-container .bar {
+    background: #3E7AFF;
+    width: 76%;
+    height: 0.8rem;
+    border-radius: 0.4rem;
+}
+
+.exam-question-container .exam-question-content-bottom .exam-questin-content-bottom-left .exam-info-mobile {
+    display: none;
+}

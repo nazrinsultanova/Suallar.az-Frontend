@@ -1,0 +1,397 @@
+/*     Olympiads-2     */
+
+.olympiads-container{
+    width: 100%;
+    background-color: rgba(4,37,96, 0.05);
+}
+
+.olympiads-container .olympiads-content{
+    box-sizing: border-box;
+    padding-top: 7.2rem;
+    padding-bottom: 9rem;
+} 
+
+.olympiads-container .olympiads-content-top h3{
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.2rem;
+    line-height: 150%;
+    color: rgba(4,37,96, 0.75);
+} 
+
+.olympiads-container .olympiads-content-top p{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 150%;
+    color: rgba(4,37,96, 0.5);
+    margin-top: 1.6rem;
+    margin-bottom: 0;
+} 
+
+.olympiads-content-middle{
+    width: 100%;
+    height: 39.2rem;
+    background: #FFFFFF;
+    border-radius: 0.8rem;
+    box-sizing: border-box;
+    padding: 4.8rem;
+    margin-top: 4.8rem;
+}
+
+.olympiads-content-middle-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.olympiads-content-middle p{
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 150%;
+    color: rgba(4,37,96, 0.75);
+}
+
+.olympiads-content-middle h3{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.2rem;
+    line-height: 150%;
+    margin-bottom: 0;
+    margin-top: 1.3rem;
+    color: #3E7AFF;
+}
+
+.olympiads-content-middle ul{
+   padding: 0;
+   margin-top: 2.3rem;
+   list-style-type: none;
+   display: flex;
+}
+
+.olympiads-content-middle ul li{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 150%;
+    color: rgba(4,37,96, 0.5);
+}
+
+.olympiads-content-middle ul img{
+   margin-right: 1.6rem;
+   margin-left: 1.6rem;
+}
+
+.olympiads-content-middle-bottom{
+    margin-top: 4.8rem;
+}
+
+.olympiads-content-middle-bottom button{
+    outline: none;
+    border: none;
+    width: 21.6rem;
+    height: 5.6rem;
+    background: #3E7AFF;
+    border-radius: 1.2rem;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.olympiads-awards{
+    display: flex;
+}
+
+.olympiads-awards .olympiads-award-item{
+    width: 16.8rem;
+    height: 19.2rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 2.4rem;
+    position: relative;
+}
+
+.olympiads-awards .olympiads-award-item .award-logo {
+    width: 3.2rem;
+    height: 3.2rem;
+    padding-top: 2.4rem;
+}
+
+.olympiads-awards .olympiads-award-item img:first-child {
+    position: absolute; 
+    width: 100%;
+     height: 100%;
+}
+ 
+.olympiads-awards .olympiads-award-item:last-child{
+    margin-right: 0;
+}
+
+.olympiads-awards .olympiads-award-item .award-title{
+    width: 13.6rem;
+    color: rgba(4,37,96,0.5);
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 150%;
+    margin-top: 2.4rem;
+    margin-bottom: 0;
+}
+
+/*--------OLympiads Results------*/
+
+.olympiads-results-container{
+    width: 100%;
+    margin-top: 6.4rem;
+}
+
+.olympiads-results-container .olympiads-results-content-top h2{
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.2rem;
+    line-height: 150%;
+    color: rgba(4,37,96, 0.75);
+}
+
+.olympiads-results-container .olympiads-results-content-top p{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 150%;
+    margin-right: 1.6rem;
+    margin-bottom: 0vmin;
+    color: rgba(4,37,96, 0.5);
+}
+
+.olympiads-results-content-bottom{
+    width: 100%;
+    height: 63rem;
+    background: linear-gradient(122.75deg, #FFFFFF 0.92%, #F7F9FF 69.57%);
+    border-radius: 0.8rem;
+    margin-top: 4.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.olympiads-results-content-bottom img {
+    width: 32.8rem;
+    height: 26.8rem;
+}
+
+.olympiads-results-content-bottom h3{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 150%;
+    color: rgba(4,37,96, 0.75);
+    margin-top: 3.2rem;
+    margin-bottom: 0;
+}
+
+.olympiads-results-content-bottom p{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: rgba(4,37,96, 0.5);
+    width: 42.8rem;
+    text-align: center;
+    margin-top: 1.2rem;
+    margin-bottom: 0;
+}
+
+.olympiads-results-content-bottom .start-exam{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 21.6rem;
+    height: 5.6rem;
+    background: #3E7AFF;
+    border-radius: 1.2rem;
+    margin-top: 2.4rem;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #FFFFFF;
+}
+
+.olympiads-winners-container{
+    width: 100%;
+}
+
+.olympiads-winners-container .olympiads-winners-content{
+    margin-top: 4.8rem;
+}
+
+.olympiads-winners-container .olympiads-winners-content h3{
+    text-align: center;
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 150%;
+    color: rgba(4,37,96, 0.75);
+}
+
+.olympiads-winners-container .olympiads-winners-content .flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 3.2rem;
+}
+
+.olympiads-winners-container .olympiads-winners-content .flex-container .winners-item{
+    display: flex;
+    text-decoration: none;
+    width: 36rem;
+    height: 34rem;
+    background: #FFFFFF;
+    border-radius: 0.8rem;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-top: 4.8rem;
+    padding-top: 4.8rem;
+}
+
+.olympiads-winners-container .olympiads-winners-content .flex-container .winners-item .winner-img-container{
+    width: 7.2rem;
+    height: 7.2rem;
+    border-right: 50%;
+    position: relative;
+}
+ 
+.olympiads-winners-container .olympiads-winners-content .flex-container .winners-item .winner-img-container .winner-img{
+    width: 100%;
+    height: 100%;
+}
+
+.olympiads-winners-container .olympiads-winners-content  .flex-container .winners-item .winner-img-container img:last-child{
+    position: absolute;
+    bottom: -1.4rem;
+    left: 2rem;
+    width: 3.2rem;
+    height: 3.2rem;
+}
+
+.olympiads-winners-container .olympiads-winners-content .flex-container .winners-item .score{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 150%;
+    color: #3E7AFF;
+    margin-bottom: 0;
+    margin-top: 2.2rem;
+}
+
+.olympiads-winners-container .olympiads-winners-content .flex-container .winners-item .student-name-title{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 150%;
+    margin-bottom: 0;
+    margin-top: 0.8rem;
+    color: #042560;
+}
+
+.olympiads-winners-container .olympiads-winners-content .flex-container .winners-item .standard{
+    width: 9.1rem;
+    height: 3.2rem;
+    border-radius: 1.6rem;
+    background: rgba(62,122,255,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: rgba(62,122,255,0.75);
+    margin-top: 0.6rem;
+    margin-bottom: 0;
+}
+ 
+.olympiads-winners-container .olympiads-winners-content .flex-container .winners-item p:last-child{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: rgba(4,37,96, 0.5);
+    margin-top: 0.8rem;
+    margin-bottom: 0;
+}
+
+.olympiads-content-middle-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.olympiads-content-middle-bottom #countdown-timer{
+    border-radius: 1.2rem;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 150%;
+    color: rgba(62,122,255,0.75);
+    background: rgba(62,122,255,0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15.6rem;
+    height: 5.6rem;
+}
+
+.olympiads-content-middle-bottom .timer-container{
+    display: flex;
+    align-items: center;
+}
+
+.olympiads-content-middle-bottom .timer-container p{
+    width: 14.9rem;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #3E7AFF;
+    margin-right: 1.9rem;
+}
+
+.olympiads-results-container .results-content-bottom {
+    margin-top: 4.8rem;
+}
+
+.results-content-bottom table .top-tr th:nth-child(4) {
+    margin-right: 0;
+}

@@ -1,0 +1,154 @@
+/*--------Packets-------*/
+
+.main-container{
+    width: 100%;
+    background-color: #EFF4FF;
+}
+
+.main-content{
+    box-sizing: border-box;
+    padding-top: 8.567rem;
+    padding-bottom: 6.208rem;
+}
+
+.div-1128{
+    width: 112.8rem;
+    margin: 0 auto;
+}
+
+.main-container .welcome-title{
+     text-align: center;
+}
+
+.main-container .welcome-title h2{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.2rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.15rem;
+    color: #002370;
+}
+
+.main-container .welcome-title p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.05rem;
+    color: #405A94;
+    margin-top: 2.8rem;
+    margin-bottom: 0;
+}
+
+.main-container .main-content .student-packet{
+    width: 55.2rem;
+    height: 63.324rem;
+    background-color: #ffffff;
+    border-radius: 2.4rem;
+    box-sizing: border-box;
+    padding-left: 4.363rem;
+    padding-right: 4.4rem;
+    padding-bottom: 4.3rem;
+    padding-top: 4.326rem;
+}
+
+.packets-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4.22rem;
+}
+
+.choose-packet{
+    width: 46.4rem;
+    height: 6.9rem;
+    background: #467AFF;
+    border-radius: 0.8rem;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 3.817rem;
+}
+
+.student-packet h2{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 4.5rem;
+    letter-spacing: 0.15rem;
+    color: #002370;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.student-packet .price{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 130%;
+    letter-spacing: 0.1rem;
+    color: #467AFF;
+    margin: 0;
+}
+
+.student-packet select{
+    width: 27.3rem;
+    height: 4.4rem;
+    border-radius: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.15rem;
+    color: #405A94;
+    border: 0.2rem solid rgba(0,35,112,0.1);
+    margin-bottom: 2.453rem;
+    box-sizing: border-box;
+    padding-left: 1.4rem;
+    -webkit-appearance: none;
+    background-image: url(../images/icons/select-box-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 1.2rem);
+    background-size: 1.286rem;
+}
+
+.student-packet select:last-child{
+    margin-bottom: 0;
+}
+
+.student-packet .packet-features{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 1.3rem;
+}
+
+.student-packet .packet-features li{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    letter-spacing: 0.05rem;
+    color: #405A94;
+    margin-bottom: 1.8rem;
+}
+
+.student-packet .packet-features li:last-child{
+    margin-bottom: 0;
+}
+
+.student-packet form{
+    margin-top: 2.77rem;
+}
+ 

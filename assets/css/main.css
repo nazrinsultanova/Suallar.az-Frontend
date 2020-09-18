@@ -1,0 +1,210 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div-1128{
+    width: 112.8rem;
+    margin: 0 auto;
+}
+
+/*--------Header-------*/
+
+.header-container{
+    width: 100%;
+    height: 9.6rem;
+    background: #FFFFFF;
+}
+
+.header-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 3rem;
+    padding-bottom: 2.6rem;
+}
+
+.header-mobile-left-logo {
+    display: none;
+}
+
+.header-container .header-center .header-menu{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.header-container .header-center .header-menu .header-menu-item{
+    margin-right: 4.8rem;
+}
+
+.header-container .header-center .header-menu .header-menu-item:last-child{
+    margin-right: 0;
+}
+
+.header-container .header-center .header-menu .header-menu-item a{
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    color: rgba(4,37,96,0.5);
+}
+
+.header-container .header-center .header-menu .header-menu-item.active a{
+    color: #042560;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+}
+
+.header-menu .header-menu-item.active a{
+    color: #042560;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+}
+
+.header-right .profile-info {
+    position: relative;
+}
+
+.header-right .profile-info .profile-photo{
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 1.6rem;
+    overflow: hidden;
+}
+
+.header-right .profile-info .profile-photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.header-right .profile-info{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header-right .profile-info .user-name{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 150%;
+    color: #042560;
+    display: flex;
+    margin: 0;
+    margin-left: 1.6rem;
+    position: relative;
+}
+
+.header-right .profile-info .user-name .user-arrow{
+    margin-left: 1.2rem;
+    cursor: pointer;
+    width: 1rem;
+}
+
+.header-container .header-left a img {
+    width: 16.8rem;
+    height: 3.734rem;
+}
+
+
+
+/*--------Header Submenu------*/
+
+.submenu-container .submenu-content{
+    width: 29rem;
+    height: 32.5rem;
+    box-shadow: 0px 12px 12px rgba(4, 37, 96, 0.04);
+    border-radius: 0.8rem;
+    border: 0.1rem solid rgba(4, 37, 96, 0.05);
+    background: #FFFFFF;
+    position: absolute;
+    top: 4rem;
+    right: -0.6rem;
+    box-sizing: border-box;
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+    padding-top: 3.2rem;
+    display: none;
+    z-index: 9999;
+}
+
+.submenu-container .submenu-content .submenu-content-top{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0.1rem solid rgba(4, 37, 96, 0.1);
+}
+
+.submenu-container .submenu-content .submenu-content-top a{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 150%;
+    text-decoration: none;
+    color: rgba(4, 37, 96, 0.75);
+    margin-bottom: 2.4rem;
+}
+
+.submenu-content-middle{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2.4rem;
+    padding-bottom: 3.2rem;
+    border-bottom: 0.1rem solid rgba(4, 37, 96, 0.1);
+}
+
+.submenu-content-middle a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: rgba(4, 37, 96, 0.75);
+    margin-bottom: 2.4rem;
+}
+
+.submenu-content-middle a:last-child{
+    margin-bottom: 0rem;
+}
+
+.submenu-content-middle a img{
+    margin-right: 1.2rem;
+    margin-left: 0;
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.submenu-content-bottom {
+    margin-top: 2.4rem;
+}
+
+.submenu-content-bottom a{
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: rgba(4, 37, 96, 0.5);
+}
+
+.submenu-container .submenu-content.submenu-active{
+    display: block;
+}

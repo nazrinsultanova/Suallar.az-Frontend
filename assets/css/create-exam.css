@@ -1,0 +1,161 @@
+.make-exam-container{
+    width: 100%;
+    background-color: rgba(4,37,96, 0.05);
+}
+
+.make-exam-container .make-exam-content{
+    box-sizing: border-box;
+    padding-top: 7.2rem;
+    padding-bottom: 10.8rem; 
+}
+
+.make-exam-container .make-exam-content .make-exam-content-top{
+     display: flex;
+     justify-content: space-between;
+}
+
+.make-exam-container .make-exam-content .make-exam-content-top .make-exam-content-top-left h3{
+    font-family: 'DM Sans',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.2rem;
+    line-height: 150%;
+    color: #042560;
+    opacity: 0.75;
+    margin: 0;
+}
+
+.make-exam-container .make-exam-content .make-exam-content-top .make-exam-content-top-left p{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 150%;
+    color: #042560;
+    opacity: 0.5;
+    margin-top: 1.6rem;
+    margin-bottom: 0;
+}
+
+.make-exam-container .make-exam-content .make-exam-content-top .make-exam-content-top-right .go-back{
+    width: 16.8rem;
+    height: 5.6rem;
+    background: rgb(62,122,255,0.05);
+    border-radius: 0.8rem;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3E7AFF;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.make-exam-content-bottom{
+    width: 100%;
+    height: 87.7rem;
+    border-radius: 1.6rem;
+    background: rgb(62,122,255,0.05);
+    margin-top: 7.2rem;
+    box-sizing: border-box;
+    padding-top: 7.2rem;
+}
+
+.make-exam-content-bottom-flex{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.make-exam-content-bottom-flex .continue{
+    width: 21.6rem;
+    height: 5.6rem;
+    background: rgb(62,122,255,0.5);
+    border-radius: 1.2rem;
+    border: none;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin: 6.4rem auto;
+    margin-bottom: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.radio-box-container .radio-wrapper{
+    display: flex;
+}
+
+.radio-box-container .radio-wrapper:first-child img {
+    width: 3.775rem;
+}
+
+.radio-box-container .radio-wrapper:last-child img {
+    width: 3.395rem;
+}
+ 
+.radio-box-container .radio-wrapper p{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 150%;
+    margin-left: 5.325rem;
+}
+
+.radio-box-container input[type=radio] { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.radio-box-container form label{
+    width: 36rem;
+    height: 12.8rem;
+    border-radius: 0.8rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 3.7rem;
+    cursor: pointer;
+    overflow:hidden;
+}
+
+.radio-box-container .radio-ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.radio-box-container .radio-ul .radio-li{
+    margin-right: 2.4rem;
+}
+
+.radio-box-container .radio-ul .radio-li.choosen{
+    border: 0.2rem solid #3E7AFF;
+    border-radius: 0.8rem;
+}
+
+.radio-box-container .radio-ul .radio-li:first-child .radio-wrapper p{
+    color: #3E7AFF;
+}
+
+.radio-box-container .radio-ul .radio-li:last-child .radio-wrapper p{
+    color: #042560;
+}
